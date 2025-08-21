@@ -1,0 +1,85 @@
+/* Remote Gold Careers CSS */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header.hero {
+  background: linear-gradient(135deg, #004aad, #d4af37);
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+header.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header.hero p {
+  font-size: 1.2rem;
+}
+
+header.hero .cta {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: #d4af37;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.stats, .categories, .why {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.stats ul, .why ul {
+  list-style: none;
+  padding: 0;
+}
+
+.stats li, .why li {
+  padding: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.categories .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.categories .card {
+  display: block;
+  padding: 1.5rem;
+  text-align: center;
+  background: #004aad;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.categories .card:hover {
+  background: #d4af37;
+  color: black;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: #333;
+  color: white;
+}
